@@ -100,3 +100,6 @@
 [submodule "site-lisp/crappy-jsp-mode"]
 	path = site-lisp/crappy-jsp-mode
 	url = git://github.com/magnars/crappy-jsp-mode.git
+[submodule "site-lisp/clojure-mode"]
+	path = site-lisp/clojure-mode
+	url = git://github.com/technomancy/clojure-mode.git
