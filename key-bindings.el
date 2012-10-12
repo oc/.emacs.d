@@ -37,7 +37,7 @@
 (global-set-key (kbd "C-x r t") 'inline-string-rectangle)
 
 ;; Quickly jump in document with ace-jump-mode
-(define-key global-map (kbd "C-ø") 'ace-jump-mode)
+(define-key global-map (kbd "C-;") 'ace-jump-mode)
 
 ;; Perform general cleanup.
 (global-set-key (kbd "C-c n") 'cleanup-buffer)
@@ -75,7 +75,7 @@
 
 ;; Make shell more convenient, and suspend-frame less
 (global-set-key (kbd "C-`") 'shell)
-(global-set-key (kbd "C-x M-z") 'suspend-frame)
+(global-set-key (kbd "C-x C-`") 'suspend-frame)
 
 ;; Zap to char
 (global-set-key (kbd "M-z") 'zap-to-char)
